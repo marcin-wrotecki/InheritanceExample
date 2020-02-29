@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.PrimaryController">
+   <children>
+      <Button fx:id="basicButton" maxHeight="100.0" maxWidth="200.0" minHeight="100.0" minWidth="200.0" mnemonicParsing="false" text="%basic" StackPane.alignment="TOP_LEFT">
+         <StackPane.margin>
+            <Insets left="70.0" top="70.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="scrollButton" maxHeight="100.0" maxWidth="200.0" minHeight="100.0" minWidth="200.0" mnemonicParsing="false" text="%scroll" StackPane.alignment="TOP_RIGHT">
+         <StackPane.margin>
+            <Insets right="70.0" top="70.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="infoButton" maxHeight="100.0" maxWidth="200.0" minHeight="100.0" minWidth="200.0" mnemonicParsing="false" text="%scrollAndInfo" StackPane.alignment="BOTTOM_LEFT">
+         <StackPane.margin>
+            <Insets bottom="70.0" left="70.0" />
+         </StackPane.margin>
+      </Button>
+      <Button fx:id="imageButton" maxHeight="100.0" maxWidth="200.0" minHeight="100.0" minWidth="200.0" mnemonicParsing="false" text="%scrollAndInfoAndImage" textAlignment="CENTER" wrapText="true" StackPane.alignment="BOTTOM_RIGHT">
+         <StackPane.margin>
+            <Insets bottom="70.0" right="70.0" />
+         </StackPane.margin>
+      </Button>
+   </children>
+</StackPane>
